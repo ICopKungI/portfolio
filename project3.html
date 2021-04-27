@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <link rel="icon" href="img/logo_main.jpg">
+    <title>K.PROJECT 3</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-main" src="img/logo_main.jpg">
+            </a>
+            <button class="navbar-toggler" data-bs-target="#menu" data-bs-toggle="collapse">
+                <a href="" style="color: white;">menu</a>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between" id="menu">
+                <ul class="navbar-nav">
+                    <li class="navbar-item">
+                        <a href="index.html#info" class="nav-link">Information</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="index.html#contact" class="nav-link">Contact</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="index.html#skill" class="nav-link">Skill</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="index.html#project" class="nav-link">Project</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="index.html#activity" class="nav-link">Activity</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <div class="container">
+        <div class="row my-port">
+            <p class="main-text">WELCOME TO
+                ~ MY ~
+                PROJECT 3</p>
+            <a href="#slide-main" class="main-out-down"> <img src="img/chevron-double-down.svg" alt="" srcset=""
+                    class="main-down"></a>
+            <p class="main-text-create">Create by Kotchatan Chatchoeidaeng</p>
+        </div>
+
+        <hr>
+
+        <div class="row" style="height: 100vh;" id="slide-main">
+            <p></p>
+            <div class="swiper-container" style="height: 50vh;" id="slide-main">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/project3-1.png" alt="" srcset="" style="width: 40%; height: 50vh;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/project3.png" alt="" srcset="" style="width: 40%; height: 50vh;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/project3-2.png" alt="" srcset="" style="width: 40%; height: 50vh;">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/project3-3.png" alt="" srcset="" style="width: 40%; height: 50vh;">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div> 
+            <p></p>
+            <p>
+            </p>
+            <H1>Project 3: Project:Game in subject OBJECT-ORIENTED PROGRAMMING </H1>
+            <hr>
+            <div class="col-12 col-md-6" style="font-size: 20px;">
+                <p>• Java OOP Game</p>
+            </div>
+            <div class="col-12 col-md-6" style="font-size: 20px;">
+                <p>• No Use Game Engine</p>
+            </div>
+            <div class="col-12 col-md-6" style="font-size: 20px;">
+                <p>• 3rd  Game in MY GAME SERIE</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        Create By: Kotchatan Chatchoeidaeng Update: 4/2021
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+    });
+</script>
+
+</html>
